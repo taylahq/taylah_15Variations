@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+    
+    <title>Humans Manifesto</title>
+    
+        <style type="text/css">
+            
+            .text{
+                font-size: 16pt;
+                margin-left:450px;
+                margin-top:250px;
+                background-color: crimson;
+                display:inline-block;
+                padding:20px;
+                color:white;
+                z-index:5;
+            }
+            
+            .text:hover{
+                margin-top: 150px;
+                margin-left:380px;
+                font-size: 26pt;
+                font-weight:900;
+                color:crimson;
+                line-height: 100px;
+                text-shadow:5px 5px;
+                background-color: white;
+                padding:0;
+            }
+            
+            .text:hover #one{
+                margin-left: -130px;
+            }
+            
+             .text:hover #two{
+                margin-left: 150px;
+            }
+            
+            .text:hover #three{
+                margin-left: -80px;
+            }
+            
+            #two{
+                word-spacing: 9.4px;
+            }
+            
+             #three{
+                word-spacing: 3px;
+            }
+            
+            #rectangleOne{
+                width:350px;
+                height:800px;
+                border: 4px solid crimson;
+                margin-top:-300px;
+                position:fixed;
+                z-index:-1;
+            }
+            
+            #rectangleTwo{
+                width:800px;
+                height:300px;
+                border: 4px solid crimson;
+                margin-top:-350px;
+                position:fixed;
+                margin-left:100px;
+                z-index:-1;
+            }
+           
+            a {
+                text-decoration: none;
+                display: inline-block;
+                padding: 8px 16px;
+            }
+
+            a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+
+            .next {
+                background-color:#f1f1f1;
+                color: black;
+            }
+            
+            .previous {
+                background-color: #f1f1f1;
+                color: black;
+            }
+
+            .round {
+                border-radius: 50%;
+            }
+            
+            .navigation{
+                float:right;
+            }
+            
+        </style>
+    
+    
+    </head>
+
+
+    <body>
+        
+        <!-- NAVIGATION --> 
+        <div class="navigation">
+            <a href="level5_v1.html" class="previous">&laquo;</a>
+            <a href="level5_v3.html" class="next">&raquo;</a>
+        </div>
+        
+        <!-- level 5 code -->
+        <div class="text">
+        
+            <div id="one">Look at how I’m not fully conscious of my real life, admit</div>
+            
+            <div id="two">that I’m groping in the dark, overwhelmed by the</div>
+            
+            <div id="three">consequences of my acts and that at every moment I’m</div>
+            
+            <div>faced with outcomes I did not intend.</div>
+        </div>
+        
+        
+        <div id="rectangleOne"></div>
+        <div id="rectangleTwo"></div>
+    
+    </body>
+
+
+
+
+
+
+</html>
